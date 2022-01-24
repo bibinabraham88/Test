@@ -1,0 +1,9 @@
+<?xml version = "1.0"encoding = "UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name = "PLT Tech Test">
+    <test name = "Tech Task">
+        <classes>
+            <class name = "Run"/>
+        </classes>
+    </test>
+</suite>

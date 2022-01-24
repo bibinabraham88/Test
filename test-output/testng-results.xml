@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[Selected product is successfully added to Basket]]>
+    </line>
+    <line>
+      <![CDATA[Same sub-total value is present in Basket and Checkout]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2022-01-24T16:17:19 GMT" name="PLT Tech Test" finished-at="2022-01-24T16:19:25 GMT" duration-ms="125839">
+    <groups>
+      <group name="cucumber">
+        <method signature="AbstractTestNGCucumberTests.runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Run@769e7ee8]" name="runScenario" class="io.cucumber.testng.AbstractTestNGCucumberTests"/>
+      </group> <!-- cucumber -->
+    </groups>
+    <test started-at="2022-01-24T16:17:19 GMT" name="Tech Task" finished-at="2022-01-24T16:19:25 GMT" duration-ms="125839">
+      <class name="Run">
+        <test-method is-config="true" signature="setUpClass(org.testng.ITestContext)[pri:0, instance:Run@769e7ee8]" started-at="2022-01-24T16:17:19 GMT" name="setUpClass" finished-at="2022-01-24T16:17:21 GMT" duration-ms="2283" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[org.testng.TestRunner@47272cd3]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setUpClass -->
+        <test-method signature="runScenario(io.cucumber.testng.PickleWrapper,io.cucumber.testng.FeatureWrapper)[pri:0, instance:Run@769e7ee8]" started-at="2022-01-24T16:17:21 GMT" name="runScenario" description="Runs Cucumber Scenarios" data-provider="scenarios" finished-at="2022-01-24T16:19:18 GMT" duration-ms="116394" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA["Verify adding a random product to basket, view the basket and navigate to payments page"]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA["Optional[Verify adding product to basket]"]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[Selected product is successfully added to Basket]]>
+            </line>
+            <line>
+              <![CDATA[Same sub-total value is present in Basket and Checkout]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- runScenario -->
+        <test-method is-config="true" signature="tearDownClass()[pri:0, instance:Run@769e7ee8]" started-at="2022-01-24T16:19:18 GMT" name="tearDownClass" finished-at="2022-01-24T16:19:25 GMT" duration-ms="7021" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- tearDownClass -->
+      </class> <!-- Run -->
+    </test> <!-- Tech Task -->
+  </suite> <!-- PLT Tech Test -->
+</testng-results>
